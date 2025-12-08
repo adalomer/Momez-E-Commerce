@@ -286,70 +286,80 @@ Platform, ölçeklenebilirlik, performans ve kullanıcı deneyimini temel öncel
 
 ## 🎥 Görsel Vitrin
 
-### Masaüstü Deneyimi
-![Ana Sayfa Masaüstü](./anasayfa.png)
-*Sezgisel navigasyon ve öne çıkan ürünlerle modern, temiz ana sayfa*
+### 🖥️ Masaüstü Deneyimi
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="./anasayfa.png" width="100%">
+      <br>
+      <sub><b>Ana Sayfa</b><br>Sezgisel navigasyon ve öne çıkan ürünler</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./kategorı.png" width="100%">
+      <br>
+      <sub><b>Kategori Sayfası</b><br>Gelişmiş filtreleme ve sıralama</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./urun.png" width="100%">
+      <br>
+      <sub><b>Ürün Detay</b><br>Görsel galeri ve detaylı bilgi</sub>
+    </td>
+  </tr>
+</table>
 
-![Kategori Sayfası Masaüstü](./kategorı.png)
-*Kolay ürün keşfi için gelişmiş filtreleme ve sıralama seçenekleri*
+### 📱 Mobil Deneyimi
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="./mobilmainpage.png" width="100%">
+      <br>
+      <sub><b>Mobil Ana Sayfa</b><br>Dokunmatik optimize arayüz</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./kategoritum.png" width="100%">
+      <br>
+      <sub><b>Mobil Kategori</b><br>Hızlı filtreleme & ızgara görünümü</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./mobilbar.png" width="100%">
+      <br>
+      <sub><b>Mobil Menü</b><br>Animasyonlu hamburger menü</sub>
+    </td>
+  </tr>
+</table>
 
-![Ürün Detay Masaüstü](./urun.png)
-*Görsel galeri ve satın alma seçenekleriyle detaylı ürün bilgisi*
-
-### Mobil Deneyimi
-![Mobil Ana Sayfa](./mobilmainpage.png)
-*Yumuşak kaydırma ile dokunma için optimize edilmiş mobil arayüz*
-
-![Mobil Kategori](./kategoritum.png)
-*Hızlı filtreleme ile mobil dostu ürün ızgarası*
-
-![Mobil Menü](./mobilbar.png)
-*Yumuşak animasyonlarla sezgisel hamburger menü*
-
-### Özellik Vitrini
-![Alışveriş Sepeti](./odeme.png))
-*Anında hesaplamalarla gerçek zamanlı sepet güncellemeleri*
-
-![Ödeme Süreci](./odemesonrası.png)
-*İlerleme göstergeleri ile optimize edilmiş ödeme akışı*
+### 🚀 Özellik Vitrini
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./odeme.png" width="100%">
+      <br>
+      <sub><b>Alışveriş Sepeti</b><br>Anlık hesaplama ve güncellemeler</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="./odemesonrası.png" width="100%">
+      <br>
+      <sub><b>Ödeme Süreci</b><br>İlerleme göstergeli akış</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🌐 Canlı Demo ve Test
 
-### Canlı Platforma Erişim
-Tüm özellikleri çalışır halde keşfetmek için **[momez.co](https://momez.co)** adresini ziyaret edin.
+### 🔗 Canlı Platforma Erişim
+> Tüm özellikleri çalışır halde keşfetmek için **[momez.co](https://momez.co)** adresini ziyaret edin.
 
-### Önerilen Test Akışı:
+### 🧪 Önerilen Test Akışı
 
-1. **Ana Sayfa Keşfi**
-   - ✅ Öne çıkan ürünleri ve kategorileri görüntüleyin
-   - ✅ Navigasyon menüsünü ve footer linklerini test edin
-   - ✅ Farklı cihazlarda responsive davranışı kontrol edin
-
-2. **Kategori Gezintisi**
-   - ✅ Erkek, Kadın, Çocuk ve Spor kategorilerine göz atın
-   - ✅ Filtreleme ve sıralama seçeneklerini deneyin
-   - ✅ Arama fonksiyonunu kullanın
-
-3. **Ürün Etkileşimi**
-   - ✅ Ürün detaylarını ve görsellerini görüntüleyin
-   - ✅ Beden ve renk varyasyonlarını kontrol edin
-   - ✅ Ürün açıklamalarını okuyun
-
-4. **Responsive Test**
-   - ✅ Mobil cihazda test edin (dikey/yatay)
-   - ✅ Tablet cihazda test edin
-   - ✅ Masaüstünde test edin (çeşitli ekran boyutları)
-   - ✅ Farklı tarayıcılarda test edin
-
-5. **Kurumsal Sayfalar**
-   - ✅ Hakkımızda sayfasını inceleyin
-   - ✅ İletişim formu işlevselliğini test edin
-   - ✅ Gizlilik politikası ve şartları okuyun
-
----
-
+| Bölüm | Test Edilecek İşlemler |
+| :--- | :--- |
+| **1. Ana Sayfa** | ✅ Öne çıkan ürünleri görüntüleyin<br>✅ Navigasyon ve footer'ı deneyin<br>✅ Responsive yapıyı kontrol edin |
+| **2. Kategori** | ✅ Kadın/Erkek/Çocuk kategorilerini gezin<br>✅ Filtreleme ve sıralamayı deneyin<br>✅ Arama çubuğunu kullanın |
+| **3. Ürün** | ✅ Detayları ve görselleri inceleyin<br>✅ Beden/Renk varyasyonlarını seçin<br>✅ Açıklamaları okuyun |
+| **4. Responsive** | ✅ Mobil (Dikey/Yatay) test edin<br>✅ Tablet ve Masaüstü boyutlarına bakın<br>✅ Farklı tarayıcılarda açın |
+| **5. Kurumsal** | ✅ 'Hakkımızda' sayfasını inceleyin<br>✅ İletişim formunu doldurun<br>✅ Gizlilik politikasını kontrol edin |
 ## 💡 Geliştirme Süreci ve Metodolojisi
 
 ### Faz 1: Planlama ve Araştırma (Hafta 1-2)
