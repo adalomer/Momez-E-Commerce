@@ -516,7 +516,7 @@ Tüm özellikleri çalışır halde keşfetmek için **[momez.co](https://momez.
 ### Geliştirici Bağlantıları
 - **GitHub**: [github.com/kullaniciadi](https://github.com/kullaniciadi)
 - **LinkedIn**: [linkedin.com/in/kullaniciadi](https://linkedin.com/in/kullaniciadi)
-- **Portfolio**: [portfolio.com](https://portfolio.com)
+- **Portfolio**: [portfolio.com](https://webyazilim.com/portfolio)
 
 ---
 
@@ -563,7 +563,7 @@ Tüm özellikler ve işlevsellik https://momez.co adresinde canlı olarak incele
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/adalomer)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/%C3%B6mer-ali-adal%C4%B1-341148279/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=google-chrome)](https://yourportfolio.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=google-chrome)](https://webyazilim.com/portfolio)
 
 © 2025 momez.co - Tüm Hakları Saklıdır
 
