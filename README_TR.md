@@ -557,6 +557,9 @@ Kullanıcı deneyimini inceleyin
 
 Mobil uyumluluğu kontrol edin
 
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/adalomer)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/%C3%B6mer-ali-adal%C4%B1-341148279/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=google-chrome)](https://yourportfolio.com)
 
 ⭐ Bu projeyi beğendiyseniz, lütfen bir yıldız verin!
 modern web teknolojileriyle yapılmıştır
