@@ -287,20 +287,20 @@ The platform was designed with scalability, performance, and user experience as 
 ## 🎥 Visual Showcase
 
 ### Desktop Experience
-![Homepage Desktop](./screenshots/homepage-desktop.png)
+![Homepage Desktop](./anasayfa.png)
 *Modern, clean homepage with intuitive navigation and featured products*
 
-![Category Page Desktop](./screenshots/category-desktop.png)
+![Category Page Desktop](./kategorı.png)
 *Advanced filtering and sorting options for easy product discovery*
 
-![Product Detail Desktop](./screenshots/product-detail-desktop.png)
+![Product Detail Desktop](./urun.png)
 *Detailed product information with image gallery and purchase options*
 
 ### Mobile Experience
-![Mobile Homepage](./screenshots/mobile-homepage.png)
+![Mobile Homepage](./mobilemainpage.png)
 *Touch-optimized mobile interface with smooth scrolling*
 
-![Mobile Category](./screenshots/mobile-category.png)
+![Mobile Category](./.png)
 *Mobile-friendly product grid with quick filtering*
 
 ![Mobile Menu](./screenshots/mobile-menu.png)
