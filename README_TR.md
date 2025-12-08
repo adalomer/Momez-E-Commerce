@@ -122,11 +122,7 @@ Platform, ölçeklenebilirlik, performans ve kullanıcı deneyimini temel öncel
 ├── wishlist          (Kaydedilen ürünler)
 └── reviews           (Ürün yorumları)
 ### 2. Adım: Görsel Vitrin Kısmı (Bunu yapıştır ve Enter'a bas)
-
-Bu komut dosyanın devamına ekleme yapar (`>>`). HTML tabloları burada olduğu için en çok burası karışıyordu, şimdi düzelecek.
-
-```bash
-cat << 'EOF' >> README.md
+```
 ---
 
 ## 🎥 Görsel Vitrin
