@@ -300,17 +300,17 @@ The platform was designed with scalability, performance, and user experience as 
 ![Mobile Homepage](./mobilemainpage.png)
 *Touch-optimized mobile interface with smooth scrolling*
 
-![Mobile Category](./.png)
+![Mobile Category](./kategoritum.png)
 *Mobile-friendly product grid with quick filtering*
 
-![Mobile Menu](./screenshots/mobile-menu.png)
+![Mobile Menu](./mobilbar.png)
 *Intuitive hamburger menu with smooth animations*
 
 ### Features Showcase
-![Shopping Cart](./screenshots/cart.png)
+![Shopping Cart](./odeme.png)
 *Real-time cart updates with instant calculations*
 
-![Checkout Process](./screenshots/checkout.png)
+![Checkout Process](./odemesonrası.png)
 *Streamlined checkout flow with progress indicators*
 
 ---
