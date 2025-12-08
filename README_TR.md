@@ -541,27 +541,31 @@ Bu proje, şunları sergilemektedir:
 * Gerçek dünyada problem çözme becerileri
 
 🔍 Canlı İnceleme
-Tüm özellikler ve işlevsellik momez.co adresinde canlı olarak incelenebilir. Lütfen şunları yapmaktan çekinmeyin:
+Tüm özellikler ve işlevsellik https://momez.co adresinde canlı olarak incelenebilir. Lütfen şunları yapmaktan çekinmeyin:
 
-Kullanıcı arayüzünü keşfedin
+- Kullanıcı arayüzünü keşfedin
 
+- Duyarlı tasarım davranışını test edin
 
-Duyarlı tasarım davranışını test edin
+- Sayfa yükleme performansını gözden geçirin
 
+- Kullanıcı deneyimini inceleyin
 
-Sayfa yükleme performansını gözden geçirin
+- Mobil uyumluluğu kontrol edin
 
+---
 
-Kullanıcı deneyimini inceleyin
+<div align="center">
 
+### ⭐ Bu projeyi beğendiyseniz, lütfen bir yıldız verin!
 
-Mobil uyumluluğu kontrol edin
+**modern web teknolojileriyle yapılmıştır**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/adalomer)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/%C3%B6mer-ali-adal%C4%B1-341148279/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=google-chrome)](https://yourportfolio.com)
 
-⭐ Bu projeyi beğendiyseniz, lütfen bir yıldız verin!
-modern web teknolojileriyle yapılmıştır
-GitHub LinkedIn Portföy
 © 2025 momez.co - Tüm Hakları Saklıdır
+
+</div>
+
