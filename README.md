@@ -2,15 +2,15 @@
 
 <div align="center">
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fmomez.co&style=for-the-badge&logo=google-chrome)](https://momez.co)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fmomez.co&style=for-the-badge&logo=google-chrome&logoColor=white)](https://momez.co)
 [![Status](https://img.shields.io/badge/STATUS-LIVE-success?style=for-the-badge)](https://momez.co)
 [![License](https://img.shields.io/badge/LICENSE-PRIVATE-red?style=for-the-badge)](LICENSE)
 
 **🌐 Live Website: [momez.co](https://momez.co)**
 
-[🇬🇧 English](#) | [🇹🇷 Türkçe](./README_TR.md)
+[🇬🇧 English](#) | [🇹🇷 Türkçe](./README.md)
 
-![momez Banner](./screenshots/banner.png)
+<img src="./screenshots/banner.png" alt="momez Banner" width="100%">
 
 </div>
 
@@ -57,7 +57,6 @@ The platform was designed with scalability, performance, and user experience as 
 - **Special Offers**: Campaign management and discount system
 - **Quick View**: Preview products without leaving the current page
 - **Related Products**: Intelligent product recommendations
-- **Recently Viewed**: Track user browsing history
 
 #### Business Features
 - **Order Management**: Complete order processing workflow
@@ -72,37 +71,11 @@ The platform was designed with scalability, performance, and user experience as 
 - **Modern Interface**: Clean, minimalist design language
 - **Consistent Branding**: Cohesive visual identity throughout
 - **Micro-interactions**: Smooth animations and transitions
-- **Visual Hierarchy**: Clear information architecture
-- **Color Psychology**: Strategic use of colors for conversion optimization
 
 #### Responsive Design
 - **Mobile-First Approach**: Optimized for smartphones and tablets
 - **Adaptive Layouts**: Fluid grid system across breakpoints
 - **Touch Optimization**: Mobile-friendly interactions and gestures
-- **Cross-Browser Compatibility**: Tested on all major browsers
-- **Progressive Enhancement**: Core functionality works everywhere
-
-#### Accessibility
-- **Semantic HTML**: Proper document structure
-- **ARIA Labels**: Enhanced screen reader support
-- **Keyboard Navigation**: Full keyboard accessibility
-- **Color Contrast**: WCAG AA compliant contrast ratios
-- **Alt Text**: Descriptive image alternatives
-
-### 🌐 Internationalization
-- **Turkish Language**: Complete Turkish localization
-- **RTL Ready**: Right-to-left language support architecture
-- **Currency Handling**: Turkish Lira (₺) with decimal precision
-- **Date/Time Formatting**: Localized formats
-- **Extensible i18n**: Ready for multi-language expansion
-
-### 📄 Corporate Pages
-- **About Us**: Company story and mission
-- **Contact**: Multiple contact methods and form
-- **Privacy Policy**: GDPR-compliant privacy documentation
-- **Terms of Service**: Legal terms and conditions
-- **FAQ**: Frequently asked questions
-- **Shipping Info**: Delivery policies and timelines
 
 ---
 
@@ -130,379 +103,105 @@ The platform was designed with scalability, performance, and user experience as 
 ### 🏗️ Architecture Details
 
 #### Frontend Architecture
-- **Framework**: Next.js 14+ with App Router
-  - Server-side rendering (SSR) for improved SEO
-  - Static site generation (SSG) for performance
-  - Incremental static regeneration (ISR)
-  - API routes for backend integration
-  
-- **Language**: TypeScript 5+
-  - Strict type checking enabled
-  - Interface-driven development
-  - Type-safe API contracts
-  - Enhanced IDE support and autocomplete
-
-- **Component Library**: React 18+
-  - Functional components with Hooks
-  - Custom hooks for business logic
-  - Component composition patterns
-  - Context API for state management
-  - React Server Components
-
-- **Styling**: Tailwind CSS 3+
-  - Utility-first CSS framework
-  - Custom design system
-  - Responsive utilities
-  - Dark mode support (ready)
-  - PurgeCSS for production optimization
+- **Framework**: Next.js 14+ with App Router (SSR, SSG, ISR)
+- **Language**: TypeScript 5+ (Strict type checking)
+- **Styling**: Tailwind CSS 3+ (Utility-first CSS)
 
 #### Backend Architecture
 - **Runtime**: Node.js 20 LTS
-  - Asynchronous, event-driven architecture
-  - High performance and scalability
-  - Rich ecosystem of packages
-  
 - **API Design**: RESTful Architecture
-  - Resource-based endpoints
-  - HTTP methods for CRUD operations
-  - JSON data format
-  - Proper status codes
-  - API versioning support
-
-- **Database**: MySQL 8.0
-  - Relational database management
-  - ACID compliance
-  - Complex query optimization
-  - Indexing strategies
-  - Foreign key relationships
+- **Database**: MySQL 8.0 (Relational database)
 
 #### Database Schema Design
-```
+```text
 📊 Core Tables:
 ├── products          (Product catalog)
 ├── categories        (Category hierarchy)
-├── users            (Customer accounts)
-├── orders           (Order records)
-├── order_items      (Order line items)
-├── cart             (Shopping cart)
-├── wishlist         (Saved items)
-└── reviews          (Product reviews)
-```
-
-#### DevOps Infrastructure
-- **Containerization**: Docker
-  - Isolated development environments
-  - Consistent deployments
-  - Easy scaling and orchestration
-  - Multi-stage builds for optimization
-  
-- **Orchestration**: Docker Compose
-  - Multi-container application setup
-  - Service dependencies management
-  - Volume and network configuration
-  - Environment variable management
-
----
-
-## 🚀 Technical Implementation Details
-
-### Performance Optimization
-
-#### Frontend Performance
-- ⚡ **Code Splitting**: Automatic route-based splitting
-- 🎯 **Lazy Loading**: On-demand component loading
-- 📦 **Image Optimization**: Next.js Image component with WebP
-- 🔄 **Caching Strategy**: Client-side and server-side caching
-- 🗜️ **Compression**: Gzip and Brotli compression
-- 📊 **Performance Monitoring**: Core Web Vitals tracking
-
-#### Backend Performance
-- 🚄 **Database Optimization**: Indexed queries and joins
-- 💾 **Connection Pooling**: Efficient database connections
-- 📈 **Query Optimization**: Reduced N+1 queries
-- 🔍 **Efficient Queries**: SELECT only necessary fields
-- ⚙️ **API Response Time**: < 200ms average response time
-
-### Security Measures
-
-#### Application Security
-- 🔒 **HTTPS Enforcement**: SSL/TLS encryption
-- 🛡️ **SQL Injection Prevention**: Parameterized queries
-- 🔐 **XSS Protection**: Input sanitization and output encoding
-- 🚫 **CSRF Protection**: Token-based validation
-- ✅ **Input Validation**: Server-side and client-side validation
-- 🔑 **Authentication**: Secure session management
-- 👤 **Authorization**: Role-based access control
-
-#### Data Security
-- 🗝️ **Password Hashing**: bcrypt algorithm
-- 🔐 **Secure Headers**: Security-focused HTTP headers
-- 📝 **Data Encryption**: Sensitive data encryption at rest
-- 🔒 **Environment Variables**: Secure configuration management
-- 📊 **Audit Logging**: Security event tracking
-
-### Scalability Features
-
-#### Horizontal Scalability
-- 🐳 **Containerized Deployment**: Easy replication
-- ⚖️ **Load Balancing Ready**: Multiple instance support
-- 📊 **Stateless Architecture**: Session-independent design
-- 🔄 **Database Replication**: Master-slave setup ready
-
-#### Vertical Scalability
-- 📈 **Optimized Queries**: Efficient resource usage
-- 💾 **Memory Management**: Proper garbage collection
-- ⚡ **CPU Optimization**: Asynchronous operations
-- 🗄️ **Storage Optimization**: Efficient file handling
-
----
-
-## 📊 Project Statistics & Metrics
-
-### Development Metrics
-- **Development Duration**: 3+ months
-- **Total Lines of Code**: 15,000+ lines
-- **Components**: 50+ React components
-- **API Endpoints**: 25+ REST endpoints
-- **Database Tables**: 12+ tables
-- **Pages**: 15+ unique pages
-
-### Performance Metrics
-- **First Contentful Paint**: < 1.5s
-- **Time to Interactive**: < 3.0s
-- **Lighthouse Score**: 90+ (Performance)
-- **Mobile Performance**: Optimized for 3G networks
-- **Image Optimization**: 70% size reduction
-- **Bundle Size**: < 250KB (initial load)
-
-### Code Quality Metrics
-- **TypeScript Coverage**: 100%
-- **Component Reusability**: High modularity
-- **Code Documentation**: JSDoc comments
-- **Naming Conventions**: Consistent throughout
-- **DRY Principle**: Minimal code duplication
-
+├── users             (Customer accounts)
+├── orders            (Order records)
+├── order_items       (Order line items)
+├── cart              (Shopping cart)
+├── wishlist          (Saved items)
+└── reviews           (Product reviews)
+``` 
 ---
 
 ## 🎥 Visual Showcase
 
-### Desktop Experience
-![Homepage Desktop](./screenshots/homepage-desktop.png)
-*Modern, clean homepage with intuitive navigation and featured products*
+### 🖥️ Desktop Experience
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="./anasayfa.png" width="100%">
+      <br>
+      <sub><b>Homepage</b><br>Intuitive navigation & featured products</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./kategorı.png" width="100%">
+      <br>
+      <sub><b>Category Page</b><br>Advanced filtering and sorting</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./urun.png" width="100%">
+      <br>
+      <sub><b>Product Detail</b><br>Visual gallery & purchase options</sub>
+    </td>
+  </tr>
+</table>
 
-![Category Page Desktop](./screenshots/category-desktop.png)
-*Advanced filtering and sorting options for easy product discovery*
+### 📱 Mobile Experience
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="./mobilmainpage.png" width="100%">
+      <br>
+      <sub><b>Mobile Homepage</b><br>Touch-optimized interface</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./kategoritum.png" width="100%">
+      <br>
+      <sub><b>Mobile Category</b><br>Quick filtering & grid view</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./mobilbar.png" width="100%">
+      <br>
+      <sub><b>Mobile Menu</b><br>Intuitive hamburger menu</sub>
+    </td>
+  </tr>
+</table>
 
-![Product Detail Desktop](./screenshots/product-detail-desktop.png)
-*Detailed product information with image gallery and purchase options*
-
-### Mobile Experience
-![Mobile Homepage](./screenshots/mobile-homepage.png)
-*Touch-optimized mobile interface with smooth scrolling*
-
-![Mobile Category](./screenshots/mobile-category.png)
-*Mobile-friendly product grid with quick filtering*
-
-![Mobile Menu](./screenshots/mobile-menu.png)
-*Intuitive hamburger menu with smooth animations*
-
-### Features Showcase
-![Shopping Cart](./screenshots/cart.png)
-*Real-time cart updates with instant calculations*
-
-![Checkout Process](./screenshots/checkout.png)
-*Streamlined checkout flow with progress indicators*
+### 🚀 Features Showcase
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./odeme.png" width="100%">
+      <br>
+      <sub><b>Shopping Cart</b><br>Real-time updates & calculations</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="./odemesonrası.png" width="100%">
+      <br>
+      <sub><b>Checkout Process</b><br>Streamlined flow with progress</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🌐 Live Demo & Testing
 
-### Access the Live Platform
-Visit **[momez.co](https://momez.co)** to explore all features in action.
+### 🔗 Access the Live Platform
+> Visit **[momez.co](https://momez.co)** to explore all features in action.
 
-### Suggested Testing Flow:
+### 🧪 Suggested Testing Flow
 
-1. **Homepage Exploration**
-   - ✅ View featured products and categories
-   - ✅ Test navigation menu and footer links
-   - ✅ Check responsive behavior on different devices
-
-2. **Category Navigation**
-   - ✅ Browse Men's, Women's, Children's, and Sports categories
-   - ✅ Try filtering and sorting options
-   - ✅ Use search functionality
-
-3. **Product Interaction**
-   - ✅ View product details and images
-   - ✅ Check size and color variations
-   - ✅ Read product descriptions
-
-4. **Responsive Testing**
-   - ✅ Test on mobile device (portrait/landscape)
-   - ✅ Test on tablet device
-   - ✅ Test on desktop (various screen sizes)
-   - ✅ Test on different browsers
-
-5. **Corporate Pages**
-   - ✅ Review About Us page
-   - ✅ Test contact form functionality
-   - ✅ Read privacy policy and terms
-
----
-
-## 💡 Development Process & Methodology
-
-### Phase 1: Planning & Research (Week 1-2)
-- Market research and competitor analysis
-- User persona development
-- Feature prioritization
-- Technical architecture design
-- Database schema planning
-- UI/UX wireframing
-
-### Phase 2: Design (Week 3-4)
-- Visual design and branding
-- Component library creation
-- Responsive mockups
-- Design system documentation
-- Prototype development
-- User testing and feedback
-
-### Phase 3: Development (Week 5-10)
-- **Frontend Development**
-  - Component implementation
-  - State management setup
-  - API integration
-  - Responsive styling
-- **Backend Development**
-  - Database setup
-  - API endpoint creation
-  - Business logic implementation
-  - Authentication system
-- Integration and testing
-
-### Phase 4: Testing & QA (Week 11-12)
-- Unit testing
-- Integration testing
-- Cross-browser testing
-- Mobile device testing
-- Performance optimization
-- Security audit
-- Bug fixing
-
-### Phase 5: Deployment & Launch (Week 13)
-- Docker containerization
-- Production environment setup
-- Database migration
-- Domain configuration
-- SSL certificate setup
-- Monitoring setup
-- Soft launch and monitoring
-
-### Phase 6: Post-Launch (Ongoing)
-- Performance monitoring
-- User feedback collection
-- Bug fixes and patches
-- Feature enhancements
-- Security updates
-
----
-
-## 🔧 Technical Challenges & Solutions
-
-### Challenge 1: Performance Optimization
-**Problem**: Initial load time was slow with large product catalogs.
-
-**Solution**: 
-- Implemented code splitting and lazy loading
-- Added image optimization with Next.js Image
-- Set up proper caching strategies
-- Optimized database queries with indexes
-
-### Challenge 2: Responsive Design
-**Problem**: Complex layouts needed to work across all devices.
-
-**Solution**:
-- Adopted mobile-first design approach
-- Used CSS Grid and Flexbox strategically
-- Implemented Tailwind's responsive utilities
-- Tested on real devices extensively
-
-### Challenge 3: State Management
-**Problem**: Complex state across multiple components.
-
-**Solution**:
-- Used React Context API for global state
-- Implemented custom hooks for business logic
-- Kept component state local when possible
-- Used URL parameters for shareable states
-
-### Challenge 4: Database Performance
-**Problem**: Slow queries with growing product database.
-
-**Solution**:
-- Added appropriate indexes on frequently queried columns
-- Optimized JOIN operations
-- Implemented connection pooling
-- Used query caching where appropriate
-
----
-
-## 🏆 Key Achievements & Learnings
-
-### Technical Achievements
-✅ Built a production-ready, scalable e-commerce platform  
-✅ Achieved 90+ Lighthouse performance score  
-✅ Implemented type-safe development with TypeScript  
-✅ Created reusable component library  
-✅ Set up containerized deployment with Docker  
-✅ Designed normalized database schema  
-✅ Implemented secure authentication system  
-
-### Skills Demonstrated
-- **Full-Stack Development**: End-to-end application development
-- **Modern Frontend**: React, Next.js, TypeScript expertise
-- **Backend Development**: Node.js, REST API design
-- **Database Design**: MySQL schema design and optimization
-- **DevOps**: Docker containerization and deployment
-- **UI/UX Design**: User-centered design principles
-- **Performance**: Web performance optimization techniques
-- **Security**: Secure coding practices and vulnerability prevention
-- **Responsive Design**: Cross-device compatibility
-- **Testing**: Quality assurance and debugging
-
-### Business Value
-- 📈 Scalable platform ready for growth
-- 💰 Cost-effective solution with open-source technologies
-- 🚀 Fast time-to-market with modern development stack
-- 🔒 Secure infrastructure protecting customer data
-- 📱 Mobile-optimized for growing mobile commerce
-
----
-
-## 🌟 Future Enhancements
-
-### Planned Features
-- [ ] Advanced analytics dashboard
-- [ ] Multi-language support (English, German)
-- [ ] Social media integration
-- [ ] Advanced recommendation engine
-- [ ] Mobile app (React Native)
-- [ ] Live chat support
-- [ ] Product reviews and ratings system
-- [ ] Wishlist sharing
-- [ ] Gift card system
-- [ ] Loyalty program
-
-### Technical Improvements
-- [ ] GraphQL API implementation
-- [ ] Real-time notifications with WebSockets
-- [ ] Advanced caching with Redis
-- [ ] Elasticsearch integration for search
-- [ ] Microservices architecture
-- [ ] CI/CD pipeline setup
-- [ ] Automated testing suite
-- [ ] A/B testing framework
+| Section | Actions to Test |
+| :--- | :--- |
+| **1. Homepage** | ✅ View featured products<br>✅ Test nav & footer<br>✅ Check responsiveness |
+| **2. Category** | ✅ Browse categories<br>✅ Try filters & sorting<br>✅ Use search functionality |
+| **3. Product** | ✅ View details & images<br>✅ Check variations<br>✅ Read descriptions |
+| **4. Responsive** | ✅ Mobile (Portrait/Landscape)<br>✅ Tablet & Desktop<br>✅ Cross-browser checks |
+| **5. Corporate** | ✅ Review 'About Us'<br>✅ Test Contact Form<br>✅ Check Privacy Policy |
 
 ---
 
@@ -512,97 +211,111 @@ This project was realized by a talented team of developers:
 
 <table>
   <tr>
-    <td align="center" width="20%">
+    <td align="center">
       <a href="https://github.com/adalomer">
         <img src="https://github.com/adalomer.png" width="100px;" alt="Ömer Ali Adalı"/>
         <br />
         <sub><b>Ömer Ali Adalı</b></sub>
       </a>
       <br />
-      <a href="https://github.com/adalomer" title="GitHub">
-        <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
+      <a href="https://www.linkedin.com/in/%C3%B6mer-ali-adal%C4%B1-341148279/">
+        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height="20px"/>
       </a>
-      <a href="https://www.linkedin.com/in/%C3%B6mer-ali-adal%C4%B1-341148279/" title="LinkedIn">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
-      </a>
-      <br />
-      <sub>Full Stack Developer</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center">
       <a href="https://github.com/Efejiz">
         <img src="https://github.com/Efejiz.png" width="100px;" alt="Muhammed Efe Özdemir"/>
         <br />
         <sub><b>Muhammed Efe Özdemir</b></sub>
       </a>
       <br />
-      <a href="https://github.com/Efejiz" title="GitHub">
-        <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
+      <a href="https://www.linkedin.com/in/muhammed-efe-%C3%B6zdemir-01454b312/">
+        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height="20px"/>
       </a>
-      <a href="https://www.linkedin.com/in/muhammed-efe-%C3%B6zdemir-01454b312/" title="LinkedIn">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
-      </a>
-      <br />
-      <sub>Frontend Developer</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center">
       <a href="https://github.com/Burakmakend">
         <img src="https://github.com/Burakmakend.png" width="100px;" alt="Burak Özdemir"/>
         <br />
         <sub><b>Burak Özdemir</b></sub>
       </a>
       <br />
-      <a href="https://github.com/Burakmakend" title="GitHub">
-        <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
+      <a href="https://www.linkedin.com/in/burakozdemir42/">
+        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height="20px"/>
       </a>
-      <a href="https://www.linkedin.com/in/burakozdemir42/" title="LinkedIn">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
-      </a>
-      <br />
-      <sub>Backend Developer</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center">
       <a href="https://github.com/Modev42">
         <img src="https://github.com/Modev42.png" width="100px;" alt="Melih Ödev"/>
         <br />
         <sub><b>Melih Ödev</b></sub>
       </a>
       <br />
-      <a href="https://github.com/Modev42" title="GitHub">
-        <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
+      <a href="https://www.linkedin.com/in/melih-%C3%B6dev-732b68283/">
+        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height="20px"/>
       </a>
-      <a href="https://www.linkedin.com/in/melih-%C3%B6dev-732b68283/" title="LinkedIn">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
-      </a>
-      <br />
-      <sub>Full Stack Developer</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center">
       <a href="https://github.com/Celtenn">
         <img src="https://github.com/Celtenn.png" width="100px;" alt="Enes Kahraman"/>
         <br />
         <sub><b>Enes Kahraman</b></sub>
       </a>
       <br />
-      <a href="https://github.com/Celtenn" title="GitHub">
-        <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
+      <a href="https://www.linkedin.com/in/enes-kahraman-99230336b/">
+        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height="20px"/>
       </a>
-      <a href="https://www.linkedin.com/in/enes-kahraman-99230336b/" title="LinkedIn">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
-      </a>
-      <br />
-      <sub>UI/UX & Frontend</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-## 📞 Contact & Links
+## 💡 Development Process & Methodology
 
-### Project Links
-- **🌐 Live Website**: [momez.co](https://momez.co)
-- **📧 Email**: iletisim@momez.com
-- **📱 Phone**: +90 555 123 4567
+### Phase 1: Planning & Research (Week 1-2)
+- Market research and competitor analysis
+- User persona development
+- Technical architecture design
+
+### Phase 2: Design (Week 3-4)
+- Visual design and branding
+- Responsive mockups
+- Design system documentation
+
+### Phase 3: Development (Week 5-10)
+- **Frontend**: Component implementation, State management, API integration
+- **Backend**: Database setup, API endpoint creation, Authentication
+
+### Phase 4: Testing & Deployment
+- Unit & Integration testing
+- Docker containerization
+- Production environment setup
+
+---
+
+## 🔧 Technical Challenges & Solutions
+
+### Challenge 1: Performance Optimization
+**Problem**: Initial load time was slow with large product catalogs.
+**Solution**: Implemented code splitting, Lazy loading and Next.js Image optimization.
+
+### Challenge 2: Responsive Design
+**Problem**: Complex layouts needed to work across all devices.
+**Solution**: Adopted mobile-first design approach and Tailwind grid system.
+
+### Challenge 3: Database Performance
+**Problem**: Slow queries with growing product database.
+**Solution**: Implemented indexing and connection pooling strategies.
+
+---
+
+## 🏆 Key Achievements
+
+✅ Built a production-ready, scalable e-commerce platform.
+✅ Achieved 90+ Lighthouse performance score.
+✅ Implemented type-safe development with TypeScript.
+✅ Set up containerized deployment with Docker.
 
 ---
 
@@ -613,26 +326,7 @@ This repository serves as a **showcase and demonstration** of the momez.co proje
 - ✅ Project documentation and overview
 - ✅ Technical specifications and architecture
 - ✅ Screenshots and visual demonstrations
-- ✅ Feature descriptions and capabilities
-- ❌ No production source code
-- ❌ No sensitive configuration
-- ❌ No proprietary business logic
-
-### 🎯 Portfolio Purpose
-This project demonstrates:
-- Modern full-stack web development capabilities
-- Production-ready code quality and architecture
-- Best practices in security and performance
-- Professional project management and delivery
-- Real-world problem-solving skills
-
-### 🔍 Live Inspection
-All features and functionality can be inspected live at [momez.co](https://momez.co). Feel free to:
-- Explore the user interface
-- Test responsive behavior
-- Review page load performance
-- Examine the user experience
-- Check mobile compatibility
+- ❌ No production source code or private business logic.
 
 ---
 
@@ -640,11 +334,10 @@ All features and functionality can be inspected live at [momez.co](https://momez
 
 ### ⭐ If you like this project, please give it a star!
 
-**Built with ❤️ and modern web technologies**
+**Built with modern web technologies**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourusername)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=google-chrome)](https://yourportfolio.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/adalomer)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/%C3%B6mer-ali-adal%C4%B1-341148279/)
 
 **© 2025 momez.co - All Rights Reserved**
 
