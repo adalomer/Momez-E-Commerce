@@ -287,30 +287,30 @@ Platform, ölçeklenebilirlik, performans ve kullanıcı deneyimini temel öncel
 ## 🎥 Görsel Vitrin
 
 ### Masaüstü Deneyimi
-![Ana Sayfa Masaüstü](./screenshots/homepage-desktop.png)
+![Ana Sayfa Masaüstü](./anasayfa.png)
 *Sezgisel navigasyon ve öne çıkan ürünlerle modern, temiz ana sayfa*
 
-![Kategori Sayfası Masaüstü](./screenshots/category-desktop.png)
+![Kategori Sayfası Masaüstü](./kategorı.png)
 *Kolay ürün keşfi için gelişmiş filtreleme ve sıralama seçenekleri*
 
-![Ürün Detay Masaüstü](./screenshots/product-detail-desktop.png)
+![Ürün Detay Masaüstü](./urun.png)
 *Görsel galeri ve satın alma seçenekleriyle detaylı ürün bilgisi*
 
 ### Mobil Deneyimi
-![Mobil Ana Sayfa](./screenshots/mobile-homepage.png)
+![Mobil Ana Sayfa](./mobilmainpage.png)
 *Yumuşak kaydırma ile dokunma için optimize edilmiş mobil arayüz*
 
-![Mobil Kategori](./screenshots/mobile-category.png)
+![Mobil Kategori](./kategoritum.png)
 *Hızlı filtreleme ile mobil dostu ürün ızgarası*
 
-![Mobil Menü](./screenshots/mobile-menu.png)
+![Mobil Menü](./mobilbar.png)
 *Yumuşak animasyonlarla sezgisel hamburger menü*
 
 ### Özellik Vitrini
-![Alışveriş Sepeti](./screenshots/cart.png)
+![Alışveriş Sepeti](./odeme.png))
 *Anında hesaplamalarla gerçek zamanlı sepet güncellemeleri*
 
-![Ödeme Süreci](./screenshots/checkout.png)
+![Ödeme Süreci](./odemesonrası.png)
 *İlerleme göstergeleri ile optimize edilmiş ödeme akışı*
 
 ---
