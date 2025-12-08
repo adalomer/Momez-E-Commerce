@@ -121,7 +121,6 @@ Platform, ölçeklenebilirlik, performans ve kullanıcı deneyimini temel öncel
 ├── cart              (Alışveriş sepeti)
 ├── wishlist          (Kaydedilen ürünler)
 └── reviews           (Ürün yorumları)
-### 2. Adım: Görsel Vitrin Kısmı (Bunu yapıştır ve Enter'a bas)
 ```
 ---
 
