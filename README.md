@@ -297,7 +297,7 @@ The platform was designed with scalability, performance, and user experience as 
 *Detailed product information with image gallery and purchase options*
 
 ### Mobile Experience
-![Mobile Homepage](./mobilemainpage.png)
+![Mobile Homepage](./mobilmainpage.png)
 *Touch-optimized mobile interface with smooth scrolling*
 
 ![Mobile Category](./kategoritum.png)
