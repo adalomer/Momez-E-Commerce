@@ -510,12 +510,12 @@ Visit **[momez.co](https://momez.co)** to explore all features in action.
 
 ### Project Links
 - **🌐 Live Website**: [momez.co](https://momez.co)
-- **📧 Email**: iletisim@momez.com
+- **📧 Email**: info@webyazilim.com
 - **📱 Phone**: +90 555 123 4567
 
 ### Developer Links
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
-- **LinkedIn**: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
+- **GitHub**: [github.com/yourusername](https://github.com/adalomer)
+- **LinkedIn**: [linkedin.com/in/yourusername](https://www.linkedin.com/in/%C3%B6mer-ali-adal%C4%B1-341148279/)
 - **Portfolio**: [yourportfolio.com](https://yourportfolio.com)
 
 ---
@@ -554,12 +554,12 @@ All features and functionality can be inspected live at [momez.co](https://momez
 
 ### ⭐ If you like this project, please give it a star!
 
-**Built with ❤️ and modern web technologies**
+**Built with modern web technologies**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourusername)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/adalomer)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/%C3%B6mer-ali-adal%C4%B1-341148279/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=google-chrome)](https://yourportfolio.com)
 
-**© 2024 momez.co - All Rights Reserved**
+**© 2025 momez.co - All Rights Reserved**
 
 </div>
