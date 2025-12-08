@@ -282,73 +282,82 @@ The platform was designed with scalability, performance, and user experience as 
 - **Naming Conventions**: Consistent throughout
 - **DRY Principle**: Minimal code duplication
 
----
-
 ## 🎥 Visual Showcase
 
-### Desktop Experience
-![Homepage Desktop](./anasayfa.png)
-*Modern, clean homepage with intuitive navigation and featured products*
+### 🖥️ Desktop Experience
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="./anasayfa.png" width="100%">
+      <br>
+      <sub><b>Modern Homepage</b><br>Clean layout with featured products</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./kategorı.png" width="100%">
+      <br>
+      <sub><b>Advanced Filtering</b><br>Sorting options for easy discovery</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./urun.png" width="100%">
+      <br>
+      <sub><b>Product Details</b><br>Detailed info & image gallery</sub>
+    </td>
+  </tr>
+</table>
 
-![Category Page Desktop](./kategorı.png)
-*Advanced filtering and sorting options for easy product discovery*
+### 📱 Mobile Experience
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="./mobilmainpage.png" width="100%">
+      <br>
+      <sub><b>Mobile Homepage</b><br>Touch-optimized interface</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./kategoritum.png" width="100%">
+      <br>
+      <sub><b>Mobile Grid</b><br>Quick filtering & smooth scroll</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="./mobilbar.png" width="100%">
+      <br>
+      <sub><b>Navigation</b><br>Intuitive hamburger menu</sub>
+    </td>
+  </tr>
+</table>
 
-![Product Detail Desktop](./urun.png)
-*Detailed product information with image gallery and purchase options*
-
-### Mobile Experience
-![Mobile Homepage](./mobilmainpage.png)
-*Touch-optimized mobile interface with smooth scrolling*
-
-![Mobile Category](./kategoritum.png)
-*Mobile-friendly product grid with quick filtering*
-
-![Mobile Menu](./mobilbar.png)
-*Intuitive hamburger menu with smooth animations*
-
-### Features Showcase
-![Shopping Cart](./odeme.png)
-*Real-time cart updates with instant calculations*
-
-![Checkout Process](./odemesonrası.png)
-*Streamlined checkout flow with progress indicators*
+### 🚀 Features Showcase
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./odeme.png" width="100%">
+      <br>
+      <sub><b>Shopping Cart</b><br>Real-time updates & calculations</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="./odemesonrası.png" width="100%">
+      <br>
+      <sub><b>Checkout Process</b><br>Streamlined flow with progress indicators</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🌐 Live Demo & Testing
 
-### Access the Live Platform
-Visit **[momez.co](https://momez.co)** to explore all features in action.
+### 🔗 Access the Live Platform
+> Visit **[momez.co](https://momez.co)** to explore all features in action.
 
-### Suggested Testing Flow:
+### 🧪 Suggested Testing Flow
 
-1. **Homepage Exploration**
-   - ✅ View featured products and categories
-   - ✅ Test navigation menu and footer links
-   - ✅ Check responsive behavior on different devices
-
-2. **Category Navigation**
-   - ✅ Browse Men's, Women's, Children's, and Sports categories
-   - ✅ Try filtering and sorting options
-   - ✅ Use search functionality
-
-3. **Product Interaction**
-   - ✅ View product details and images
-   - ✅ Check size and color variations
-   - ✅ Read product descriptions
-
-4. **Responsive Testing**
-   - ✅ Test on mobile device (portrait/landscape)
-   - ✅ Test on tablet device
-   - ✅ Test on desktop (various screen sizes)
-   - ✅ Test on different browsers
-
-5. **Corporate Pages**
-   - ✅ Review About Us page
-   - ✅ Test contact form functionality
-   - ✅ Read privacy policy and terms
-
----
+| Category | Actions to Test |
+| :--- | :--- |
+| **1. Homepage** | ✅ View featured products<br>✅ Test nav & footer<br>✅ Check responsiveness |
+| **2. Navigation** | ✅ Browse Men/Women/Kids<br>✅ Try filters & sorting<br>✅ Use search bar |
+| **3. Product** | ✅ View details & images<br>✅ Check size/color variations<br>✅ Read descriptions |
+| **4. Responsive** | ✅ Mobile (Portrait/Landscape)<br>✅ Tablet & Desktop modes<br>✅ Cross-browser checks |
+| **5. Corporate** | ✅ Review 'About Us'<br>✅ Test Contact Form<br>✅ Check Privacy Policy |
 
 ## 💡 Development Process & Methodology
 
