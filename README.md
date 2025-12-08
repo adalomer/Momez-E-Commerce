@@ -282,82 +282,73 @@ The platform was designed with scalability, performance, and user experience as 
 - **Naming Conventions**: Consistent throughout
 - **DRY Principle**: Minimal code duplication
 
+---
+
 ## 🎥 Visual Showcase
 
-### 🖥️ Desktop Experience
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <img src="./anasayfa.png" width="100%">
-      <br>
-      <sub><b>Modern Homepage</b><br>Clean layout with featured products</sub>
-    </td>
-    <td width="33%" align="center">
-      <img src="./kategorı.png" width="100%">
-      <br>
-      <sub><b>Advanced Filtering</b><br>Sorting options for easy discovery</sub>
-    </td>
-    <td width="33%" align="center">
-      <img src="./urun.png" width="100%">
-      <br>
-      <sub><b>Product Details</b><br>Detailed info & image gallery</sub>
-    </td>
-  </tr>
-</table>
+### Desktop Experience
+![Homepage Desktop](./screenshots/homepage-desktop.png)
+*Modern, clean homepage with intuitive navigation and featured products*
 
-### 📱 Mobile Experience
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <img src="./mobilmainpage.png" width="100%">
-      <br>
-      <sub><b>Mobile Homepage</b><br>Touch-optimized interface</sub>
-    </td>
-    <td width="33%" align="center">
-      <img src="./kategoritum.png" width="100%">
-      <br>
-      <sub><b>Mobile Grid</b><br>Quick filtering & smooth scroll</sub>
-    </td>
-    <td width="33%" align="center">
-      <img src="./mobilbar.png" width="100%">
-      <br>
-      <sub><b>Navigation</b><br>Intuitive hamburger menu</sub>
-    </td>
-  </tr>
-</table>
+![Category Page Desktop](./screenshots/category-desktop.png)
+*Advanced filtering and sorting options for easy product discovery*
 
-### 🚀 Features Showcase
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="./odeme.png" width="100%">
-      <br>
-      <sub><b>Shopping Cart</b><br>Real-time updates & calculations</sub>
-    </td>
-    <td width="50%" align="center">
-      <img src="./odemesonrası.png" width="100%">
-      <br>
-      <sub><b>Checkout Process</b><br>Streamlined flow with progress indicators</sub>
-    </td>
-  </tr>
-</table>
+![Product Detail Desktop](./screenshots/product-detail-desktop.png)
+*Detailed product information with image gallery and purchase options*
+
+### Mobile Experience
+![Mobile Homepage](./screenshots/mobile-homepage.png)
+*Touch-optimized mobile interface with smooth scrolling*
+
+![Mobile Category](./screenshots/mobile-category.png)
+*Mobile-friendly product grid with quick filtering*
+
+![Mobile Menu](./screenshots/mobile-menu.png)
+*Intuitive hamburger menu with smooth animations*
+
+### Features Showcase
+![Shopping Cart](./screenshots/cart.png)
+*Real-time cart updates with instant calculations*
+
+![Checkout Process](./screenshots/checkout.png)
+*Streamlined checkout flow with progress indicators*
 
 ---
 
 ## 🌐 Live Demo & Testing
 
-### 🔗 Access the Live Platform
-> Visit **[momez.co](https://momez.co)** to explore all features in action.
+### Access the Live Platform
+Visit **[momez.co](https://momez.co)** to explore all features in action.
 
-### 🧪 Suggested Testing Flow
+### Suggested Testing Flow:
 
-| Category | Actions to Test |
-| :--- | :--- |
-| **1. Homepage** | ✅ View featured products<br>✅ Test nav & footer<br>✅ Check responsiveness |
-| **2. Navigation** | ✅ Browse Men/Women/Kids<br>✅ Try filters & sorting<br>✅ Use search bar |
-| **3. Product** | ✅ View details & images<br>✅ Check size/color variations<br>✅ Read descriptions |
-| **4. Responsive** | ✅ Mobile (Portrait/Landscape)<br>✅ Tablet & Desktop modes<br>✅ Cross-browser checks |
-| **5. Corporate** | ✅ Review 'About Us'<br>✅ Test Contact Form<br>✅ Check Privacy Policy |
+1. **Homepage Exploration**
+   - ✅ View featured products and categories
+   - ✅ Test navigation menu and footer links
+   - ✅ Check responsive behavior on different devices
+
+2. **Category Navigation**
+   - ✅ Browse Men's, Women's, Children's, and Sports categories
+   - ✅ Try filtering and sorting options
+   - ✅ Use search functionality
+
+3. **Product Interaction**
+   - ✅ View product details and images
+   - ✅ Check size and color variations
+   - ✅ Read product descriptions
+
+4. **Responsive Testing**
+   - ✅ Test on mobile device (portrait/landscape)
+   - ✅ Test on tablet device
+   - ✅ Test on desktop (various screen sizes)
+   - ✅ Test on different browsers
+
+5. **Corporate Pages**
+   - ✅ Review About Us page
+   - ✅ Test contact form functionality
+   - ✅ Read privacy policy and terms
+
+---
 
 ## 💡 Development Process & Methodology
 
@@ -515,17 +506,103 @@ The platform was designed with scalability, performance, and user experience as 
 
 ---
 
+## 👥 Project Team
+
+This project was realized by a talented team of developers:
+
+<table>
+  <tr>
+    <td align="center" width="20%">
+      <a href="https://github.com/adalomer">
+        <img src="https://github.com/adalomer.png" width="100px;" alt="Ömer Ali Adalı"/>
+        <br />
+        <sub><b>Ömer Ali Adalı</b></sub>
+      </a>
+      <br />
+      <a href="https://github.com/adalomer" title="GitHub">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
+      </a>
+      <a href="https://www.linkedin.com/in/%C3%B6mer-ali-adal%C4%B1-341148279/" title="LinkedIn">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+      </a>
+      <br />
+      <sub>Full Stack Developer</sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Efejiz">
+        <img src="https://github.com/Efejiz.png" width="100px;" alt="Muhammed Efe Özdemir"/>
+        <br />
+        <sub><b>Muhammed Efe Özdemir</b></sub>
+      </a>
+      <br />
+      <a href="https://github.com/Efejiz" title="GitHub">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
+      </a>
+      <a href="https://www.linkedin.com/in/muhammed-efe-%C3%B6zdemir-01454b312/" title="LinkedIn">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+      </a>
+      <br />
+      <sub>Frontend Developer</sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Burakmakend">
+        <img src="https://github.com/Burakmakend.png" width="100px;" alt="Burak Özdemir"/>
+        <br />
+        <sub><b>Burak Özdemir</b></sub>
+      </a>
+      <br />
+      <a href="https://github.com/Burakmakend" title="GitHub">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
+      </a>
+      <a href="https://www.linkedin.com/in/burakozdemir42/" title="LinkedIn">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+      </a>
+      <br />
+      <sub>Backend Developer</sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Modev42">
+        <img src="https://github.com/Modev42.png" width="100px;" alt="Melih Ödev"/>
+        <br />
+        <sub><b>Melih Ödev</b></sub>
+      </a>
+      <br />
+      <a href="https://github.com/Modev42" title="GitHub">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
+      </a>
+      <a href="https://www.linkedin.com/in/melih-%C3%B6dev-732b68283/" title="LinkedIn">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+      </a>
+      <br />
+      <sub>Full Stack Developer</sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://github.com/Celtenn">
+        <img src="https://github.com/Celtenn.png" width="100px;" alt="Enes Kahraman"/>
+        <br />
+        <sub><b>Enes Kahraman</b></sub>
+      </a>
+      <br />
+      <a href="https://github.com/Celtenn" title="GitHub">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
+      </a>
+      <a href="https://www.linkedin.com/in/enes-kahraman-99230336b/" title="LinkedIn">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+      </a>
+      <br />
+      <sub>UI/UX & Frontend</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 📞 Contact & Links
 
 ### Project Links
 - **🌐 Live Website**: [momez.co](https://momez.co)
-- **📧 Email**: info@webyazilim.com
+- **📧 Email**: iletisim@momez.com
 - **📱 Phone**: +90 555 123 4567
-
-### Developer Links
-- **GitHub**: [github.com/yourusername](https://github.com/adalomer)
-- **LinkedIn**: [linkedin.com/in/yourusername](https://www.linkedin.com/in/%C3%B6mer-ali-adal%C4%B1-341148279/)
-- **Portfolio**: [yourportfolio.com](https://yourportfolio.com)
 
 ---
 
@@ -563,10 +640,10 @@ All features and functionality can be inspected live at [momez.co](https://momez
 
 ### ⭐ If you like this project, please give it a star!
 
-**Built with modern web technologies**
+**Built with ❤️ and modern web technologies**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/adalomer)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/%C3%B6mer-ali-adal%C4%B1-341148279/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourusername)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=google-chrome)](https://yourportfolio.com)
 
 **© 2025 momez.co - All Rights Reserved**
