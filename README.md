@@ -8,7 +8,7 @@
 
 **🌐 Live Website: [momez.co](https://momez.co)**
 
-[🇬🇧 English](#) | [🇹🇷 Türkçe](./README.md)
+[🇬🇧 English](#) | [🇹🇷 Türkçe](./README_TR.md)
 
 <img src="./screenshots/banner.png" alt="momez Banner" width="100%">
 
